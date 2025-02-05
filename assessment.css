@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  background-color: #f6dede;
+  color: #738290;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#assessment {
+  font-size: 18px;
+  padding: 5px 20px;
+  margin-left: 10px;
+  background-color: #e5f0f9;
+  color: #738290;
+  border: 3px solid #666;
+  border-radius: 5px;
+  border-style: none;
+  background: linear-gradient(to bottom, #ffffff, #cccccc);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.1s ease-in-out; /* 追加 */
+}
+
+#assessment:hover {
+  background: linear-gradient(to bottom, #f0f0f0, #bbbbbb);
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+#assessment:active {
+  background: linear-gradient(to bottom, #cccccc, #999999);
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transform: scale(0.95); /* ボタンが押されたときに小さくなる */
+  transition: all 0.05s ease-in-out;
+}
+
+#user-name {
+  font-size: 18px;
+  border: 2px solid #fbeded;
+  border-style: none;
+  border-radius: 15px;
+  padding: 8px 15px;
+  width: 80%;
+  max-width: 300px;
+  background: #fff;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+#user-name:focus {
+  border-color: #f8e4e4;
+  box-shadow: 6px 6px 12px rgba(247, 238, 238, 0.5);
+  transform: scale(1.05);
+}
+
+#result-area {
+  margin-top: 60px;
+}
+
+#tweet-area {
+  margin-top: 35px;
+}
